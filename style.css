@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
+.clear-fix{
+    clear: both;
+}
+.home-content{
+    margin:auto;
+    width:80%;
+}
+
+/*        HOMEE          */
+.home{
+    background-color: red;
+    height: 80vh;
+    background-image: url('./images/drew-coffman-1872.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+.nav{
+    width: 100%;
+}
+
+.nav img{
+    height: 7%;
+    float:left;
+}
+
+.nav ul{
+    float:right;
+    padding: 10px;
+    text-align: left;
+}
+
+.nav ul li{
+    float:right;
+    list-style: none;
+    padding: 10px;
+}
+
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.home-content-inner{
+    width: 60%;
+    padding-top:100px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    line-height: 2;
+}
+
+.home-content-inner h1{
+    font-size:76px;
+}
+
+.home-content-inner p{
+    font-size:20px;
+}
+
+.btn{
+    border: none;
+    padding: 15px 28px;
+    margin: 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    
+}
+.btn-bg{
+    border: none;
+    background-color:#8e7754;
+}
+
+
+/*        Who we are          */
+
+.container-who-we-are{
+    width: 80%;
+    margin:auto;
+}
+.colored{
+background-color: #f8f8f8;
+padding: 50px 0px 50px 0px;
+}
+
+.who-we-are{
+    margin-top:70px;
+}
+
+
+.who-we-are img{
+    width: 50%;
+    padding: 20px 15px;
+    float: left;
+}
+
+
+.who-we-are-content{
+    padding: 20px;
+    text-align: left;
+    width: 50%;
+    float: left;
+
+}
+
+.who-we-are-content h2{
+    font-size: 32px;
+    padding: 20px;
+}
+.who-we-are-content p{
+    padding: 20px 8px 8px 0;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.who-we-are-content ul{
+    text-align: left;
+}
+.who-we-are-content ul li{
+    list-style-type: none; 
+    width: 100%;
+    display: inline-block;   
+}
+.who-we-are-content ul li img{
+    width: 60px;
+    border: solid 0.5px rgb(186, 186, 186);
+    border-radius:50%;
+    margin:0 10px 10px 0;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
+
+.who-we-are-content ul li p{
+    padding-left: 60px;
+}
+
+/* Our location section */
+/* same as who we are */
+
+
+
+/* Our baking */
+
+.our-baking-content{
+    padding:50px 0px 20px 20px ;
+    width: 80%;
+    line-height: 1.5;
+    margin:auto;
+    text-align: center;
+}
+
+.our-baking-content h2{
+    padding: 20px 0px 10px 0px;
+}
+.our-baking-content p{
+    padding: 30px;
+    display: inline-block;
+
+}
+
+.baking-item{
+    width: 33%;
+    float: left; 
+}
+        
+.baking-item img{
+    width: 80%;
+    padding-bottom: 20px;
+}
+.baking-item p{
+    padding: 20px;
+}
+
+/* Map section  */
+
+.icon-map{
+    width: 60px;
+    border: solid 0.5px rgb(186, 186, 186);
+    background-color:#8e7754;
+    border-radius:50%;
+    margin:0 10px 10px 0;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
+
+.spec-img{
+    width: 50%;
+    padding: 20px 15px;
+    float: left;
+}
+
+
+
+/* about section */
+
+.container-about{
+background-color: #403d38;
+color: white;
+padding: 50px;
+}
+.about-us p{
+    color: #969696;
+    font-size: 16px;
+
+}
+.about-content{
+    width: 80%;
+    margin:auto;
+
+}
+
+.container-about li{
+    list-style-type: none;  
+    padding: 10px;
+}
+
+.special{
+    float: left;
+    width: 25%;
+    text-align: left;
+    line-height:2;
+    padding-left: 20px;
+}
+
+
+.container-about ul li p{
+    display: inline-block;
+    padding-left:20px;
+    color: #969696;
+}
+
+
+/* arrow */
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+transform: rotate(-45deg);
+-webkit-transform: rotate(-45deg);
+}
+
+.left {
+transform: rotate(135deg);
+-webkit-transform: rotate(135deg);
+}
+
+.up {
+transform: rotate(-135deg);
+-webkit-transform: rotate(-135deg);
+}
+
+.down {
+transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+}
+
+
+
+/* horizontal line style */
+
+.special hr{
+    width: 60%;
+    height: 1px;
+    margin:auto 20px;
+}
+
+
+
+.special-icons ul li img{
+    width: 30px;
+}
+
+
+
+/* Footer */
+footer{
+    
+    text-align: center;
+    background-color: #353330;
+    color: white;
+    padding:50px;
+
+}
+
+footer .footer-icons img{
+    margin-right: 10px;
+    width: 40px;
+    background-color: #c0c0c00b;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
+
+footer p {
+    padding:20px;
+    margin-right: 5px;
+    color: #969696;
+} 
